@@ -3,6 +3,7 @@ import { Main } from './layout/Main';
 import { Navbar } from './layout/Navbar';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
+import { Footer } from './layout/Footer';
 
 const location = new ReactLocation();
 const routes = [
@@ -23,6 +24,7 @@ function App() {
       <Main>
         <Outlet />
       </Main>
+      <Footer />
     </Router>
   );
 }

@@ -1,0 +1,16 @@
+.home {
+  position: relative;
+  /* Photo by Ingnio Studio: https://www.pexels.com/photo/turned-on-black-laptop-computer-665214/ */
+  background: url('../assets/home-bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  color: #fff;
+}

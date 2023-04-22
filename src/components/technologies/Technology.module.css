@@ -1,0 +1,37 @@
+.technology {
+  border: 1px solid #0f1417;
+  font-family: 'Roboto Mono', monospace;
+
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 15rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+
+.technology:hover {
+  filter: drop-shadow(8px 8px 10px rgb(237, 232, 232));
+  /* border: 1px solid white; */
+  opacity: 0.9;
+}
+
+.technology:hover .logo {
+  animation: spin 5s linear 0s infinite normal;
+}
+
+/* .logo {
+  animation: spin 5s linear 0s infinite alternate;
+} */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

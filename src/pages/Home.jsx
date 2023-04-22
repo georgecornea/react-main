@@ -1,7 +1,9 @@
 import { Project } from '../components/projects/Project';
 import { Projects } from '../components/projects/Projects';
+import { ReactLocation } from '../components/technologies/ReactLocation';
 import { ReactLogo } from '../components/technologies/ReactLogo';
 import { Technologies } from '../components/technologies/Tehcnologies';
+import { Technology } from '../components/technologies/Tehcnology';
 import { ViteLogo } from '../components/technologies/ViteLogo';
 import { DarkOverlay } from '../layout/DarkOverlay';
 import styles from './Home.module.css';
@@ -13,7 +15,17 @@ export const Home = () => {
         <div className={styles.inner}>
           <Technologies>
             <ViteLogo />
-            <ReactLogo />
+            <Technology
+              href='https://react.dev/'
+              color='#149ECA'
+              technology='react'
+            />
+
+            <Technology
+              href='https://react-location.tanstack.com/'
+              color='red'
+              technology='react-location'
+            />
           </Technologies>
 
           <Projects>

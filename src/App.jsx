@@ -4,6 +4,7 @@ import { Navbar } from './layout/Navbar';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Footer } from './layout/Footer';
+import { NotFound } from './pages/NotFound';
 
 const location = new ReactLocation();
 const routes = [
@@ -14,6 +15,10 @@ const routes = [
   {
     path: '/about',
     element: <About />,
+  },
+  {
+    path: '/*',
+    element: <NotFound />,
   },
 ];
 

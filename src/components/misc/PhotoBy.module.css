@@ -1,0 +1,9 @@
+.photo-by {
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+  text-decoration: none;
+  font-family: inherit;
+  color: #c6c4c4c5;
+  font-size: x-small;
+}

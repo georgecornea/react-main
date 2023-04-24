@@ -20,12 +20,20 @@ export const Navbar = () => {
         <Link to='/' className={styles.link} getActiveProps={activeLink}>
           Home
         </Link>
-        <Link to='/react' className={styles.link} getActiveProps={activeLink}>
+        <a
+          href='https://react.gcornea.ca'
+          className={styles.link}
+          target='_blank'
+        >
           React
-        </Link>
-        <Link to='/cplus' className={styles.link} getActiveProps={activeLink}>
+        </a>
+        <a
+          href='https://cplus.gcornea.ca'
+          className={styles.link}
+          target='_blank'
+        >
           C++
-        </Link>
+        </a>
         <Link to='/about' className={styles.link} getActiveProps={activeLink}>
           About
         </Link>

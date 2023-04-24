@@ -1,10 +1,8 @@
+import { PhotoBy } from '../components/misc/PhotoBy';
 import { Project } from '../components/projects/Project';
 import { Projects } from '../components/projects/Projects';
-import { ReactLocation } from '../components/technologies/ReactLocation';
-import { ReactLogo } from '../components/technologies/ReactLogo';
 import { Technologies } from '../components/technologies/Tehcnologies';
 import { Technology } from '../components/technologies/Tehcnology';
-import { ViteLogo } from '../components/technologies/ViteLogo';
 import { DarkOverlay } from '../layout/DarkOverlay';
 import styles from './Home.module.css';
 
@@ -19,21 +17,14 @@ export const Home = () => {
               color='#149ECA'
               technology='react'
             />
-            <Technology
-              href='https://vitejs.dev/'
-              color='#FFC71F'
-              technology='vite'
-            />
-
+            <Technology href='https://vitejs.dev/' technology='vite' />
             <Technology
               href='https://react-location.tanstack.com/'
               color='red'
               technology='react-location'
             />
-
             <Technology
               href='https://docs.pmnd.rs/zustand/getting-started/introduction'
-              color='red'
               technology='zustand'
             />
           </Technologies>
@@ -52,6 +43,12 @@ export const Home = () => {
           </Projects>
         </div>
       </DarkOverlay>
+      <PhotoBy
+        name='Ingnio Studio'
+        href='https://www.pexels.com/photo/turned-on-black-laptop-computer-665214/'
+        left={10}
+        bottom='100'
+      />
     </div>
   );
 };

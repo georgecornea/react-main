@@ -13,5 +13,5 @@
 .project:hover {
   filter: drop-shadow(8px 8px 10px rgb(237, 232, 232));
   border: 1px solid white;
-  opacity: 0.3;
+  opacity: 0.6;
 }

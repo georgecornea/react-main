@@ -14,17 +14,27 @@ export const Home = () => {
       <DarkOverlay>
         <div className={styles.inner}>
           <Technologies>
-            <ViteLogo />
             <Technology
               href='https://react.dev/'
               color='#149ECA'
               technology='react'
+            />
+            <Technology
+              href='https://vitejs.dev/'
+              color='#FFC71F'
+              technology='vite'
             />
 
             <Technology
               href='https://react-location.tanstack.com/'
               color='red'
               technology='react-location'
+            />
+
+            <Technology
+              href='https://docs.pmnd.rs/zustand/getting-started/introduction'
+              color='red'
+              technology='zustand'
             />
           </Technologies>
 

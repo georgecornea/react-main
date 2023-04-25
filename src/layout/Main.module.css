@@ -1,9 +1,16 @@
 .main {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #959794;
+  align-items: center; */
+  /*text-align: center; */
+  /* background-color: #959794; */
+  background: radial-gradient(
+    circle at 10%,
+    #19171a,
+    #19171a 80%,
+    #fff 83%,
+    #333 83%
+  );
   min-width: 320px;
   min-height: 100vh;
 }
